@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2A0F7EA-F1F0-9367-55E0-CCF8BF1580A1" name="TBL_HABILIDADES">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-09 00:12:19 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_HABILIDAD" id="737B7627-B479-DCEA-B019-B4B3DA45AC22">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-09 00:12:46 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HABILIDAD" id="377F2AC2-914C-A5E9-4A78-2800172B7965">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-09 00:12:46 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="933B7A16-9DA7-B7A9-DDA4-EE434F5AE8AB">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-09 00:12:46 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFFEFF54-0405-77C2-E268-37364D04AAF6" name="TBL_HABILIDADES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-09 00:12:46 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="737B7627-B479-DCEA-B019-B4B3DA45AC22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

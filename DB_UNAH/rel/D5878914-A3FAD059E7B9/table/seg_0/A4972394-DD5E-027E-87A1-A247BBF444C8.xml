@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4972394-DD5E-027E-87A1-A247BBF444C8" name="TBL_CARRERAS_X_ALUMNOS">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-26 00:39:37 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUENTA" id="2D08FD27-FBC9-9510-46E1-097116DCAC48">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-26 00:42:07 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36F7796D-E822-AD82-7B04-C3F745839288" referredColumn="4CA02C40-7248-6E79-E861-760E5153B7C0"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARRERA" id="6964CF14-F86D-9276-49FE-64A5A20D069F">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-26 00:42:14 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B80C1E3-4AA0-2E8A-67D9-46719ADCBB9B" referredColumn="E33180CE-5CAC-E903-D12B-BBF422ED77DF"/>
+</associations>
+</Column>
+<Column name="PROMEDIO" id="23933F79-2561-AA09-1890-74798ABEF2F0">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-26 00:41:36 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_CLASES_APROBADAS" id="8B80A2C9-306E-91E3-9B3B-32682C40F7E1">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-26 00:41:36 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="E9E4122B-B0A8-7A26-1C19-9BCB926485FA">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-26 00:41:36 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3EA3C210-390C-CA63-84D9-1068A2D3E3AA" name="TBL_CARRERAS_X_ALUMNOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-26 00:44:16 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D08FD27-FBC9-9510-46E1-097116DCAC48"/>
+<colUsage columnID="6964CF14-F86D-9276-49FE-64A5A20D069F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69CF778E-3D2C-B816-A0BD-F0011CCD87D9" name="TBL_CARRERAS_X_ALUMNOS_TBL_ALUMNOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-26 00:42:07 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D08FD27-FBC9-9510-46E1-097116DCAC48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5D0DEA4-4AC0-1869-1D69-FF7DDE1D9B18" name="TBL_CARRERAS_X_ALUMNOS_TBL_CARRERAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-26 00:42:14 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6964CF14-F86D-9276-49FE-64A5A20D069F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

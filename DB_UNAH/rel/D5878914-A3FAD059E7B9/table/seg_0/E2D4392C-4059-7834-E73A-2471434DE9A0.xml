@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2D4392C-4059-7834-E73A-2471434DE9A0" name="TBL_FACULTADES">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:12:24 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_FACULTAD" id="7C3D360C-8038-9E46-42D3-62E9D611302F">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:12:50 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_FACULTAD" id="A17B4CA8-F34F-13F1-DC2F-FD89F0BAC7E6">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:12:50 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DECADE6E-12EE-894C-A0EF-E28AC562C242" name="TBL_FACULTADES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:12:50 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C3D360C-8038-9E46-42D3-62E9D611302F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

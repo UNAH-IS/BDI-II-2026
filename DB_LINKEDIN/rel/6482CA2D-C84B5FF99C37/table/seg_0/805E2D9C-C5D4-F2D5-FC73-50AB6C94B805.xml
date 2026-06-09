@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="805E2D9C-C5D4-F2D5-FC73-50AB6C94B805" name="TBL_MERITOS_ACADEMICOS">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:26:23 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MERITO" id="DBC4D4A4-AE67-BB2E-D7D8-92802F4AF07C">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:26:49 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_MERITO" id="209682DB-4811-E21E-F4A7-C4796EB589E7">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:26:49 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7236318B-BA01-87C1-C743-EE03BC3465FE" name="TBL_MERITOS_ACADEMICOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:26:49 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBC4D4A4-AE67-BB2E-D7D8-92802F4AF07C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

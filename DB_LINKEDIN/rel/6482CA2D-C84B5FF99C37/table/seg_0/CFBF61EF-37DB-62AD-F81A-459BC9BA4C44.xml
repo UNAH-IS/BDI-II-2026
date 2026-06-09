@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFBF61EF-37DB-62AD-F81A-459BC9BA4C44" name="TBL_GRADOS">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:25:12 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_GRADO" id="A09E5484-84BF-AAEB-9A41-1371E4026A38">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:25:34 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_GRADO" id="2F026629-97A6-D3D3-FA11-6C1076CF74CB">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:25:34 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="541E6148-561B-5AD3-E3A8-CF58C694A831" name="TBL_GRADOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:25:34 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A09E5484-84BF-AAEB-9A41-1371E4026A38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

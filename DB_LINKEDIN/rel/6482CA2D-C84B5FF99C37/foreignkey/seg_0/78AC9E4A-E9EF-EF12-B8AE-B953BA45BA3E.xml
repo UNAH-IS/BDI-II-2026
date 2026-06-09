@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="78AC9E4A-E9EF-EF12-B8AE-B953BA45BA3E" containerWithKeyObject="75527397-998D-4535-ED40-98484FD28F27" localFKIndex="B72A4504-26B8-2C53-F2CD-5D3457F4BCD2" name="TBL_TITULOS_TBL_MERITOS_ACADEMICOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:27:34 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<referredTableLongName>TBL_MERITOS_ACADEMICOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>805E2D9C-C5D4-F2D5-FC73-50AB6C94B805</referredTableID>
+<keyObject>7236318B-BA01-87C1-C743-EE03BC3465FE</keyObject>
+<referredKeyID>7236318B-BA01-87C1-C743-EE03BC3465FE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_MERITO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF500AA4-A322-C17E-C25D-D5AADC89FB3A" containerWithKeyObject="6C8A99C7-04BF-355B-9973-27AE554F03B4" localFKIndex="87245D1F-C25F-AD6E-7609-03FC677717E8" name="TBL_LOGROS_TBL_TIPOS_LOGROS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:32:58 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_LOGROS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5643365E-6546-8015-8F3B-8AA1C180AA75</referredTableID>
+<keyObject>CEB6B540-FEEF-07F0-D00E-B434A6EEDC30</keyObject>
+<referredKeyID>CEB6B540-FEEF-07F0-D00E-B434A6EEDC30</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO_LOGRO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

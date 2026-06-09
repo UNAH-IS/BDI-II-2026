@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5F18A4B-08E2-5D48-22EE-0C74A2BD7E8C" name="TBL_PERIODOS">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:38:08 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PERIODO" id="4058CC27-1E5B-1BA3-E437-DFE76CE9DE99">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:38:50 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PERIODO" id="4E339D61-6FCF-D029-A8CF-97E04798E03A">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:38:50 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="B87B9AA6-B028-AD54-E17C-6A5B358BBFBB">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:38:50 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="9ED5B7B4-5127-46A4-8997-E3B4D5208C28">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:38:50 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIAS_FERIADOS" id="255A70D4-5313-D765-281A-70C9E68F4CC4">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:38:50 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIAS_LABORALES" id="308D89F4-187C-9AB5-F643-580E92E2DC31">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:38:50 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_PERIODO" id="57D932ED-2F24-9E79-2950-59A1AA854B18">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:39:57 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9032D199-9520-BDEF-CE17-9793018E2651" referredColumn="F7CC14F0-0731-DAEC-5B20-0E41CD00F0F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2E1ABED-9512-0FE8-BE01-BB11F7570E1A" name="TBL_PERIODOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:38:50 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4058CC27-1E5B-1BA3-E437-DFE76CE9DE99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69509B4D-CA10-7DAB-0BFF-838019493FC3" name="TBL_PERIODOS_TBL_TIPOS_PERIODOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:39:57 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57D932ED-2F24-9E79-2950-59A1AA854B18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

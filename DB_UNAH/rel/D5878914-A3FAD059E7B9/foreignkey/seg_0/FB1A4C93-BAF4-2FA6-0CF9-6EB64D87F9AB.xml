@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FB1A4C93-BAF4-2FA6-0CF9-6EB64D87F9AB" containerWithKeyObject="3B58E5AC-0D39-1755-3C4B-B77926734508" localFKIndex="BBF31339-4A1A-AB83-3343-98211A994AEE" name="TBL_ALUMNOS_TBL_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-27 00:25:39 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<referredTableLongName>TBL_LUGARES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8D9ADF1E-D32A-0746-9D9E-56B813ABD6E3</referredTableID>
+<keyObject>B97EECAA-07C2-95B7-F0E9-313373595ECB</keyObject>
+<referredKeyID>B97EECAA-07C2-95B7-F0E9-313373595ECB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_LUGAR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08195B58-B535-63E0-BC12-AE681D272878" name="TBL_CATEGORIAS_DOCENTES">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-27 00:36:44 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CATEGORIA_DOCENTE" id="81FDCA02-93D8-0F4E-742D-33CBFB06B8EC">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-27 00:37:20 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA_DOCENTE" id="FC348BC4-87EB-C630-1216-26D495423E2D">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-27 00:37:20 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO_MINIMO" id="AA7DEF15-3437-6114-9F62-C8946C223BCB">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-27 00:37:20 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO_MAXIMO" id="C218974A-DB54-4A03-8ADF-6B0B37346940">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-27 00:37:20 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8508757E-21C4-3920-272D-298B52C07E40" name="TBL_CATEGORIAS_DOCENTES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-27 00:37:20 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81FDCA02-93D8-0F4E-742D-33CBFB06B8EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB89F190-E47A-5E8E-9D24-66D2B8F34B97" name="TBL_ESTADOS_CONEXIONES">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-09 00:42:18 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_CONEXION" id="A7BCD8DB-9C7D-A1D4-E754-6EBAE8486326">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-09 00:42:44 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_CONEXION" id="0C57C6AB-7EA5-FF2F-33DA-9EDFC858D1BA">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-09 00:42:44 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AC73D61-9ECF-E831-1475-328BD7516969" name="TBL_ESTADOS_CONEXIONES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-09 00:42:44 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7BCD8DB-9C7D-A1D4-E754-6EBAE8486326"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="875286AC-25CF-2DE1-02B2-65DF13F8172D" name="TBL_USUARIOS">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:12:59 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="AAA107A4-39F5-7C19-D161-454B38BF2914">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:14:48 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="68040A07-2DE8-B216-2138-2661B2938272">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:14:48 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="9C9AA7E1-A825-5C01-A2C3-12F79A1B11F8">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:14:48 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO" id="ACE2C8D5-D58E-06C5-D554-FF4E3F19BCCC">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:14:48 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="AD2713BD-F6FD-0F8D-72B5-A5EE36651158">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:14:48 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="C963371A-4595-0C6B-1EA3-6216A9FA7535">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:14:48 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="BCE4E3EA-2F18-1E81-ADFF-F22D71678908">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:14:48 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIOGRAFIA" id="051C4B04-F590-03DA-E94D-36E53395F128">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:14:48 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR_NACIMIENTO" id="FBED4D21-4731-2758-C29A-097AD05A18FA">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:16:37 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BABE6A3-A027-696F-05A1-2B05DF69469F" referredColumn="774EFAF4-2DCA-C024-1BAF-8F6FC42C1A74"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_RESIDENCIA" id="94BDBEA6-D305-0775-1328-9655BB6541B6">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:16:43 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E04BAB19-E93B-F819-6158-E90FC2F5BE3F" referredColumn="774EFAF4-2DCA-C024-1BAF-8F6FC42C1A74"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF291A07-47F0-A3C2-43D2-F710B406CE92" name="TBL_USUARIOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:14:48 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAA107A4-39F5-7C19-D161-454B38BF2914"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E5EE40E-A010-322F-D65E-D0CD38B12BB3" name="TBL_USUARIOS_TBL_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:16:37 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBED4D21-4731-2758-C29A-097AD05A18FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DF02B24-0918-7DC5-D4B4-2B0A305825D8" name="TBL_USUARIOS_TBL_LUGARES_FKv2">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:16:43 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94BDBEA6-D305-0775-1328-9655BB6541B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

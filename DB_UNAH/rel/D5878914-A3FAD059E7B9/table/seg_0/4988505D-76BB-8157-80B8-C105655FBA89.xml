@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4988505D-76BB-8157-80B8-C105655FBA89" name="TBL_OBSERVACIONES">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-03 00:43:33 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_OBSERVACION" id="C5188D46-CC13-9981-1A79-B135BB78F1C9">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-03 00:44:04 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBSERVACION" id="63317B94-D69F-A035-97BB-BD5D8A5BBF0F">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-03 00:44:04 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATURA" id="A0F54BBB-9528-1CD8-7D36-49B4D2CE1A74">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-03 00:44:04 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E202470F-1DC0-4B46-20F8-FDA83BDFDC71" name="TBL_OBSERVACIONES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-03 00:44:04 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5188D46-CC13-9981-1A79-B135BB78F1C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

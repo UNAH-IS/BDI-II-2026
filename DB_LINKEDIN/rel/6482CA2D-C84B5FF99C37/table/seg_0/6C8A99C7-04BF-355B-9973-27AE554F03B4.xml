@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C8A99C7-04BF-355B-9973-27AE554F03B4" name="TBL_LOGROS">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:21:52 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LOGRO" id="E39FAF2A-7155-1799-E4F9-55CF0EA93347">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:22:54 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="01FD9691-6DBC-9C57-8C14-FFB66CC06436">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:23:03 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F24B3FC3-9A62-4085-447E-8E1606779118" referredColumn="AAA107A4-39F5-7C19-D161-454B38BF2914"/>
+</associations>
+</Column>
+<Column name="LOGRO" id="1C99D606-94B1-7161-E51F-129661D7122B">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:22:54 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_EFECTIVIDAD" id="4A874ACE-0748-9FE0-0601-911134C2948A">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:22:54 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="604ECCA0-E81F-BD76-5BBF-5FAB8F13ACCC">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:22:54 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_LOGRO" id="221EC64E-B9EB-81AE-45A7-367FE84BF5CB">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:32:58 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF500AA4-A322-C17E-C25D-D5AADC89FB3A" referredColumn="6A6B5654-9AEE-A2E6-0A8D-483F086BE73D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2EDC572-B8F4-33B3-9633-C2B5739AB2FA" name="TBL_LOGROS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:22:54 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E39FAF2A-7155-1799-E4F9-55CF0EA93347"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA8967B1-E8B2-79EC-DEC8-CA4B7C4C82FD" name="TBL_LOGROS_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:23:03 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01FD9691-6DBC-9C57-8C14-FFB66CC06436"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87245D1F-C25F-AD6E-7609-03FC677717E8" name="TBL_LOGROS_TBL_TIPOS_LOGROS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:32:58 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="221EC64E-B9EB-81AE-45A7-367FE84BF5CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

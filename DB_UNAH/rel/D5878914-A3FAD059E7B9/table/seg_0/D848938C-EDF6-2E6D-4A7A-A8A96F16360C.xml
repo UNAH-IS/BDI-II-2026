@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D848938C-EDF6-2E6D-4A7A-A8A96F16360C" name="TBL_HISTORIAL">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-03 00:35:35 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_HISTORIAL" id="D40E96A8-7EB9-4861-141F-1F97F46C98BF">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-03 00:36:49 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTA" id="3FB62AAC-526D-EE53-48F3-8F0BB3614F1A">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-03 00:36:49 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="6C6D4770-72EF-0D36-9D95-9ABB5377BA86">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-03 00:37:05 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_MATRICULA" id="1DD5F410-7741-A8B1-1851-2ECFB06D24AC">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-03 00:37:24 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32D00953-A598-055C-CBA9-3AFE1D500309" referredColumn="DD93755D-CF3A-03AA-97D0-BE15DE440D5F"/>
+</associations>
+</Column>
+<Column name="CODIGO_OBSERVACION" id="FD28B2BC-6618-E1BA-32D2-6884A6B877B8">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-03 00:44:19 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB566000-67A0-0007-0ED7-6FCE5681B8BF" referredColumn="C5188D46-CC13-9981-1A79-B135BB78F1C9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A63EA1C-78A0-2E17-1EBA-DE2F48BB57D0" name="TBL_HISTORIAL_PK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-03 00:37:05 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D40E96A8-7EB9-4861-141F-1F97F46C98BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1682B960-C9A3-4477-CD45-A10087702B93" name="TBL_HISTORIAL_UN">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-03 00:39:18 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DD5F410-7741-A8B1-1851-2ECFB06D24AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E67D695-C692-6A98-C650-1E3891DED69E" name="TBL_HISTORIAL_TBL_MATRICULA_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-03 00:37:24 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DD5F410-7741-A8B1-1851-2ECFB06D24AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A516ECC9-827C-CA6E-967E-D83E8B0EE0FC" name="TBL_HISTORIAL_TBL_OBSERVACIONES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-03 00:44:19 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD28B2BC-6618-E1BA-32D2-6884A6B877B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

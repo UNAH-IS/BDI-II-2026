@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C0615D3-70B1-4D3E-E5A4-922EF52662F8" name="TBL_EDIFICIOS">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:46:34 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EDIFICIO" id="AB3E6D1F-121D-E565-3E80-BA69A22B1F72">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:47:01 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_EDIFICIO" id="4CDE236A-91D7-BEF4-9DAC-C5F071585C66">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:47:01 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="0E207C07-ECE5-0A05-0C0C-5328B819CB8E">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:47:01 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CENTRO_REGIONAL" id="C9E3999D-CB2C-12BC-74AF-163E1EE8532C">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:47:56 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="487BDCA6-4F3B-AC18-01C0-952CD57AE516" referredColumn="4F28991B-C060-5D2F-36DC-74462316EF7D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95391116-987F-BB7F-E02D-37B1E3B128DE" name="TBL_EDIFICIOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:47:01 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB3E6D1F-121D-E565-3E80-BA69A22B1F72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="267A9617-9D29-098F-6E64-6ED05F52FD97" name="TBL_EDIFICIOS_TBL_CENTROS_REGIONALES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:47:56 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9E3999D-CB2C-12BC-74AF-163E1EE8532C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

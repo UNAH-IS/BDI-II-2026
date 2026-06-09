@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82EDD41A-40C7-A4C7-FC43-67F205D5FD54" name="TBL_REQUISITOS">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:30:59 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ASIGNATURA" id="B99807B0-C571-5383-61F1-A49C72B78220">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:31:58 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="554EAEFA-9679-C4CA-52F4-265EABA29813" referredColumn="94F7B900-076C-9098-895E-2F071858FD95"/>
+</associations>
+</Column>
+<Column name="CODIGO_REQUISITO" id="9C79875B-31AF-DCC3-233E-63923BBD1951">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:32:06 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F8B87DC-E260-A1D8-4A23-5D083668DB02" referredColumn="94F7B900-076C-9098-895E-2F071858FD95"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARRERA" id="0B403E6E-931A-A57C-B121-CAB260CEF944">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:32:22 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B01D1FA5-242E-5B4D-7DBD-10AFEE822473" referredColumn="E33180CE-5CAC-E903-D12B-BBF422ED77DF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C248AA0-A027-085E-AE91-6DE2A27E5726" name="TBL_REQUISITOS_UN">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:35:30 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B99807B0-C571-5383-61F1-A49C72B78220"/>
+<colUsage columnID="9C79875B-31AF-DCC3-233E-63923BBD1951"/>
+<colUsage columnID="0B403E6E-931A-A57C-B121-CAB260CEF944"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E3A5426-2BE3-6BF4-300F-72B30D497E4A" name="TBL_REQUISITOS_TBL_ASIGNATURAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:31:58 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B99807B0-C571-5383-61F1-A49C72B78220"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60ECAC1C-FCA6-F10E-03B9-BE8F71E183DC" name="TBL_REQUISITOS_TBL_ASIGNATURAS_FKv2">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:32:06 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C79875B-31AF-DCC3-233E-63923BBD1951"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7CAD805-D012-782C-A44A-9BC081499759" name="TBL_REQUISITOS_TBL_CARRERAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:32:22 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B403E6E-931A-A57C-B121-CAB260CEF944"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

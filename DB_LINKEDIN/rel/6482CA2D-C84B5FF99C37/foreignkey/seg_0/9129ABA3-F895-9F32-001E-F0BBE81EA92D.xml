@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9129ABA3-F895-9F32-001E-F0BBE81EA92D" containerWithKeyObject="75527397-998D-4535-ED40-98484FD28F27" localFKIndex="1752F2DE-94FA-E9DC-DCCE-E48EA84106FA" name="TBL_TITULOS_TBL_GRADOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:27:28 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<referredTableLongName>TBL_GRADOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CFBF61EF-37DB-62AD-F81A-459BC9BA4C44</referredTableID>
+<keyObject>541E6148-561B-5AD3-E3A8-CF58C694A831</keyObject>
+<referredKeyID>541E6148-561B-5AD3-E3A8-CF58C694A831</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_GRADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

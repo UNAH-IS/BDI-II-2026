@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6855B5E3-A8B3-CCBE-3D80-D29421F05AE7" name="TBL_ASIGNATURAS">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:15:06 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ASIGNATURA" id="94F7B900-076C-9098-895E-2F071858FD95">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:19:01 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CARRERA" id="FA3C9D52-B123-41F4-4956-F78B5DB3D82F">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:19:19 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC219B00-50B6-52D6-DCA2-8B8FCE58F7C8" referredColumn="E33180CE-5CAC-E903-D12B-BBF422ED77DF"/>
+</associations>
+</Column>
+<Column name="NOMBRE_ASIGNATURA" id="70C975D2-03F3-8E22-8BD2-1A4626A2BE0B">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:19:01 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ALTERNO" id="C0CCE27A-34A0-7339-4A1B-764CC866A503">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:19:01 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIDADES_VALORATIVAS" id="0AB908B9-9CC7-E1F2-3A20-DF4AF5A911BE">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:19:01 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_ASIGNATURA" id="8417A094-BE48-158E-7B95-0810EA57D3C7">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-03 00:28:42 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D2233E7-3C77-CC12-56F3-481CA94C3F09" referredColumn="C3F34F87-4125-50C1-C25F-6033D8B31B0C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EDCFB4F-B9AC-340E-8D53-BA468E43DFD6" name="TBL_ASIGNATURAS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:19:01 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94F7B900-076C-9098-895E-2F071858FD95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA114DF9-FC40-48C5-778E-13E32D1A68FE" name="TBL_ASIGNATURAS_TBL_CARRERAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:19:19 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA3C9D52-B123-41F4-4956-F78B5DB3D82F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35D1DCAE-E7F1-B307-7CC9-3E1D2E504C9A" name="TBL_ASIGNATURAS_TBL_TIPOS_ASIGNATURAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-03 00:28:42 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8417A094-BE48-158E-7B95-0810EA57D3C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

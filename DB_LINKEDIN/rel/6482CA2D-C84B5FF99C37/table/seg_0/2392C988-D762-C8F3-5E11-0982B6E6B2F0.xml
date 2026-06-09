@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2392C988-D762-C8F3-5E11-0982B6E6B2F0" name="TBL_RECONOCIMIENTOS">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:36:21 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_RECONOCIMIENTO" id="62BBE320-EC72-2BC3-61D6-390F6AC9E89F">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:37:16 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51B32B90-FBA5-264C-C704-040CB00E5474" referredColumn="E39FAF2A-7155-1799-E4F9-55CF0EA93347"/>
+</associations>
+</Column>
+<Column name="PREMIO_RECONOCIMIENTO" id="4574065D-76C0-63D5-A57D-37EBC2436AAA">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:36:51 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9955D44B-EF96-D35C-E282-330EB1FCBCE2" name="TBL_RECONOCIMIENTOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:37:34 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62BBE320-EC72-2BC3-61D6-390F6AC9E89F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D644FC8-4C9E-E1F5-2357-096A6EB68777" name="TBL_RECONOCIMIENTOS_TBL_LOGROS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:37:16 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62BBE320-EC72-2BC3-61D6-390F6AC9E89F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

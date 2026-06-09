@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A15B2D30-2A60-987F-960D-636392A45324" containerWithKeyObject="319230E7-3FD3-5BB5-ABDD-61F39204FD44" localFKIndex="DD15E537-1E49-1FF3-8A78-ECBC9C7EE74D" name="TBL_SECCIONES_TBL_PERIODOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-02 00:46:25 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<referredTableLongName>TBL_PERIODOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E5F18A4B-08E2-5D48-22EE-0C74A2BD7E8C</referredTableID>
+<keyObject>A2E1ABED-9512-0FE8-BE01-BB11F7570E1A</keyObject>
+<referredKeyID>A2E1ABED-9512-0FE8-BE01-BB11F7570E1A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PERIODO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

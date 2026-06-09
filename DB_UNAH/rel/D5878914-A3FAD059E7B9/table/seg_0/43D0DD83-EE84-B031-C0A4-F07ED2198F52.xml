@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43D0DD83-EE84-B031-C0A4-F07ED2198F52" name="TBL_JEFES_CARRERAS">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-27 00:44:15 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_JEFE_CARRERA" id="502BED25-FBE2-074B-8B05-7E67F1BF1C32">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-27 00:45:08 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C2751A2-E393-C9A5-FAEE-816E81B90897" referredColumn="A4B683A2-84AF-5F90-D734-E00D317A7BD8"/>
+</associations>
+</Column>
+<Column name="CANTIDAD_SUBORDINADOS" id="98A5A679-49FA-C004-B487-F37E2C3AF751">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-27 00:44:47 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRESUPUESTO_ASIGNADO" id="5D2EA2EE-6B72-443B-F57A-34A267B78914">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-27 00:44:47 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F84664A8-86A2-A3A7-4C17-3C93FCEE6E62" name="TBL_JEFES_CARRERAS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-27 00:45:34 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="502BED25-FBE2-074B-8B05-7E67F1BF1C32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50DC58B2-39E8-C141-A51A-1D5199FFA571" name="TBL_JEFES_CARRERAS_TBL_EMPLEADOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2026-05-27 00:45:08 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="502BED25-FBE2-074B-8B05-7E67F1BF1C32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

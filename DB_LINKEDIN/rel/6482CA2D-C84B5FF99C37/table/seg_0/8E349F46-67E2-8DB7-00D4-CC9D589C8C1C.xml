@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E349F46-67E2-8DB7-00D4-CC9D589C8C1C" name="TBL_TIPOS_UNIVERSIDADES">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:46:02 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_UNIVERSIDAD" id="11766F8B-087A-69E6-BD4A-A2CC52DF783E">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:46:34 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_UNIVERSIDAD" id="5F4CAD7F-56C7-E779-0C17-3F90F7F256E1">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:46:34 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4978DFFE-E606-3744-AE57-7363FA075CA7" name="TBL_TIPOS_UNIVERSIDADES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2026-06-04 00:46:34 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11766F8B-087A-69E6-BD4A-A2CC52DF783E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
